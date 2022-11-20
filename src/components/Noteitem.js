@@ -11,7 +11,7 @@ const Noteitem = (props) => {
   
   <div className="card-body">
   <div className="d-flex justify-content-between">
-    <h5 className="card-title"><u>{note.title}</u></h5>      
+    <h5 className="card-title " style={{width:"13rem"}}><u>{note.title}</u></h5>      
     <div className="icons"> 
     <i className="fa-solid fa-pen fs-4 ms-2" onClick={()=>{
         updateNote(note)
